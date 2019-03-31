@@ -1,4 +1,7 @@
 extends Button
 
+var start = false
+
 func _pressed():
-	get_tree().change_scene("res://scenes/Game.tscn")
+	start = true
+	self.visible = false

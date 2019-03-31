@@ -14,4 +14,4 @@ func on_click():
 	choosen = true
 	
 func change_sprite(var name):
-	$Sprite.texture = load("res://sprites/"+name+".png")
+	$Sprite.texture = load("res://sprites/botoes/"+name+".png")
